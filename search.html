@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>theScene - Movie search engine</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+</head>
+<body>
+    <header class="nav-bar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="/">theScene</a>
+            </div>
+            <div class="nav-options">
+                <ul class="options">
+                    <li><a href="#">Top Rated</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main id="main-search">
+        <div id="search-results">
+            <h1>Search results for: "{{keywords}}"</h1>
+            <div class="cards-wrapper">
+                <div class="card">
+                    <div class="pic-container">
+                        <a href="https://www.imdb.com/title/tt10618286">
+                            <img src="https://m.media-amazon.com/images/M/MV5BOThlYzQxZDUtMDY2Ni00YjgxLWJmNGQtYjBiYmExMTcxOTUzXkEyXkFqcGdeQXVyMTA3MjIyNDM5._V1_SX300.jpg" alt="Mank image">
+                        </a>
+                    </div>
+                    <div class="text-container">
+                        <p><span>Mank</span></p>
+                        <p>2020</p>
+                    </div>
+                    <div class="rating">
+                        <div class="rating-text">
+                            <p>9.2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <h1 class="footer-logo">theScene</h1>
+            <table class="footer-options">
+                <tr>
+                    <td>System Status</td>
+                    <td>About theScene</td>
+                    <td>Terms of Use</td>
+                </tr>
+                <tr>
+                    <td>Support</td>
+                    <td>Contact Us</td>
+                    <td>Privacy Policy</td>
+                </tr>   
+            </table>
+        </div>
+    </footer>
+</body>
+</html>
